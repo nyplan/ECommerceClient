@@ -12,7 +12,6 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { DeleteDirective } from 'src/app/directives/admin/delete.directive';
 import { FileUploadModule } from 'src/app/services/common/file-upload/file-upload.module';
-import { FileUploadComponent } from 'src/app/services/common/file-upload/file-upload.component';
 
 
 @NgModule({
@@ -20,8 +19,7 @@ import { FileUploadComponent } from 'src/app/services/common/file-upload/file-up
     ProductsComponent,
     CreateComponent,
     ListComponent,
-    DeleteDirective,
-    FileUploadComponent
+    DeleteDirective
   ],
   imports: [
     CommonModule,
